@@ -8,7 +8,7 @@
 
 ## Usage
 
-Install [Python](https://www.python.org/downloads/) and [Conan](https://www.conan.io/) a C++ Package Manager. *This is a Header Only Library*, so no build step. :)
+Install [Python](https://www.python.org/downloads/) and [Conan](https://www.conan.io/), a C++ Package Manager. *This is a Header Only Library*, so no build step. :)
 
 ```bash
 conan install conan-vulkan-hpp --build
