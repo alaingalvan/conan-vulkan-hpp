@@ -17,7 +17,9 @@ class vulkansdkConan(ConanFile):
 
     def source(self):
         self.run('git clone https://github.com/KhronosGroup/Vulkan-Hpp')
+
+    def build(self):
         self.builddir = os.path.join(self.conanfile_directory, self.foldername)
 
     def package(self):
-        self.copy(pattern='*', dst='include/vulkan', src='%s/include' % self.builddir, keep_path=False)
+        self.copy(pattern='*', dst='include/vulkan', src='%s/vulkan' % self.builddir, keep_path=False)
