@@ -2,7 +2,7 @@
 
 ![Release][release-img] [![conan-img]][conan-url] [![License][license-img]][license-url]
 
-> **NOTE**: I have no affilication with the Khronos Group. 
+> **NOTE**: `vulkan.hpp` is now bundled with the Vulkan SDK, so this repo will no longer be maintained. 
 
 [Conan](https://conan.io) package for the [Vulkan C++ API](https://github.com/KhronosGroup/Vulkan-Hpp).
 
